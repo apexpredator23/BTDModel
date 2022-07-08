@@ -1,0 +1,114 @@
+#main
+{
+	width:1500px;
+	height:auto;
+	margin:0 auto;
+}
+#wrapper
+{
+	width:1500px;
+	height:auto;
+	float:left;
+	box-shadow:0px 0px 20px #333;
+}
+#banner
+{
+	width:1500px;
+	height:80px;
+	float:left;
+	background-color:#000;
+}
+#banner h1
+{
+	text-align:center;
+	text-decoration:none;
+	color:#FFF;
+	font-family:Verdana;
+	margin-top:20px;
+	margin-left:20px;
+}
+
+#menu
+{
+	width:1500px;
+	height:40px;
+	float:left;
+	background-color:#666;
+}
+#menu p
+{
+	margin-top:10px;
+}
+#menu a
+{
+	font-family:arial;
+	color:#FFF;
+	text-decoration:none;
+	margin:10px;
+}
+#menu a:hover
+{
+	color:#FFF;
+	text-decoration:underline;
+}
+#middle
+{
+	width:1500px;
+	min-height:inherit;
+	float:left;
+}
+#middle #content
+{
+	width:600px;
+	min-height:500px;
+	float:left;
+	background-image:url(../images/brain.jpg);
+	background-size:cover;
+}
+#middle #ad
+{
+	width:900px;
+	min-height:500px;
+	float:right;
+	background-color:#333;
+}
+#middle #ad h2, h3, p
+{
+	margin-top:35px;
+	margin-bottom:20px;
+	color:#FFF;
+}
+
+
+#bottom
+{
+	width:1500px;
+	height:120px;
+	float:left;
+	background-color:#555;
+}
+#bottom p
+{
+	color:#fff;
+	font-family:"Courier New", Courier, monospace;
+	text-align:center;
+}
+#bottom a
+{
+	color:#fff;
+	font-family:arial;
+	text-decoration:none;
+	margin-right:25px;
+}
+#bottom a:hover
+{
+	color:#9FF;
+	text-decoration:underline;
+}
+#img
+{
+	background-color:#333;
+	border:2px 2px 2px 2px;
+	border-color:#FFF;
+	color:#FFF;
+}
